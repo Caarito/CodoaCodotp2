@@ -2,11 +2,9 @@
     color:white;
 }
 
-.navbar-collapse{
- margin-left: 500px;
+.espacio{
+    padding: 30px 0;
 }
-
-
 
 .imagencompleta{
     background-image: url(../img/hawaii.jpg);
@@ -20,14 +18,12 @@
 .centrar {
     margin-top: 10px;
     text-align: center;
-
 }
 
 .btn-warning{
     color: black;
     font-weight: bold;
-    padding: 0.5px;
-    
+    padding: 0.5px;  
 }
 
 .btn-info{
@@ -48,7 +44,6 @@
     padding: 0.5px;
 }
 
-
 .derecha{
     background-image: url(../img/honolulu.jpg);
     background-size: cover;
@@ -65,15 +60,13 @@
     border-color: white;
 }
 
-
 h4{
     margin-top: 25px;
 }
 
 .centrar2 {
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .texto a{
@@ -81,20 +74,16 @@ h4{
 }
 
 .texto{
-text-align: center;
+    text-align: center;
 }
-
-
 
 .caja{
     height: 20px;
 }
 
-
 .abajo{
     color: gray;
-    font-size: small;
-    
+    font-size: small;  
 }
 
 .carousel-caption{
@@ -107,12 +96,10 @@ text-align: center;
     font-size: small;
 }
 
-
 .btn-primary{
     color: white;
     background-color: rgb(85, 212, 85);
-    border-color: rgb(85, 212, 85) ;
-    
+    border-color: rgb(85, 212, 85) ;   
 }
 
 .btn-primary:hover{
@@ -121,20 +108,32 @@ text-align: center;
 }
 
 .padding-izq{
-    padding-left: 0;
-    
+    padding-left: 0;  
 }
 
 .padding-der{
     padding-right: 0;
 }
+
 .margin_abajo{
     margin-bottom: 10px;
 }
 
-
-.experimento{
-    margin-left: 250px;
-    height: 60px;
+footer a {
+    color: white !important;
 }
+
+footer .nav-link {
+    padding-right: 4.0rem !important;
+}
+
+.degradado{
+    background: rgb(41,65,80)!important; 
+    background: linear-gradient(90deg, rgba(41,65,80,1) 0%, rgba(36,92,116,1) 35%)!important;
+}
+
+.btn-tickets{
+    color:#93cb3c !important;
+}
+
 
